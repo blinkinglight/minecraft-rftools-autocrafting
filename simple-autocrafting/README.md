@@ -7,3 +7,5 @@ after you add program to process run "net setup craft"
 
 
 maybe you need some modifications in program where which where chest are.
+
+for this program you should allocate 11 slots ( from 0 to 10 )
