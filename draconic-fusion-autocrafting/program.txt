@@ -1,0 +1,1416 @@
+[
+  {
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "opcode": {
+      "id": "ev_timer",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 40
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "v": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_craftok",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north",
+            "node": "i3"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 3
+    },
+    "opcode": {
+      "id": "ev_signal",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "t1"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "node": "i6"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 9
+    },
+    "opcode": {
+      "id": "test_eq_var",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 6
+    },
+    "opcode": {
+      "id": "ev_craft",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west"
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south",
+            "node": "i10"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 0,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south",
+            "node": "i11"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 11
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 0
+    },
+    "opcode": {
+      "id": "eval_integer",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "var": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 0
+    },
+    "opcode": {
+      "id": "eval_countinv",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "R",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north",
+            "node": "i4"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "node": "i5"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 5,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "intside": "up"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south",
+            "node": "i9"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 9
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 1,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "up"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "asd"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 10,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "fail -1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 0
+    },
+    "opcode": {
+      "id": "test_gt",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 4
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_eq",
+      "primary": "D",
+      "secondary": "r",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": -1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "per mazai, exit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "f1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_log",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "false 111"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 3
+    },
+    "opcode": {
+      "id": "test_gt",
+      "primary": "R",
+      "secondary": "u",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "var": 2
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "U",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 6,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_fetchitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "intside": "down"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 12
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "boolean",
+          "value": {
+            "null": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north",
+            "node": "i1"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "node": "i8"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 8
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 2,
+      "y": 8
+    },
+    "opcode": {
+      "id": "do_rs",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "side",
+          "value": {
+            "side": "up"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 0
+    },
+    "opcode": {
+      "id": "test_loop",
+      "primary": "R",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_log",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "baigem"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 2
+    },
+    "opcode": {
+      "id": "eval_item",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "item",
+          "value": {
+            "fun": "itemfromcard"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 3
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "var": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 0
+    },
+    "opcode": {
+      "id": "eval_slots",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 4
+    },
+    "opcode": {
+      "id": "test_eq",
+      "primary": "U",
+      "secondary": "d",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "fun": "last_int"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 1
+    },
+    "opcode": {
+      "id": "do_stop",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "L",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_delay",
+      "primary": "U",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_lock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "f1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 7,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_releaselock",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "f1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 6
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north",
+            "node": "i2"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 7
+    },
+    "opcode": {
+      "id": "do_pushitems",
+      "primary": "L",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "east",
+            "node": "i7"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 7
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 8
+    },
+    "opcode": {
+      "id": "eval_getitem",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "up",
+            "intside": "down"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 3,
+      "y": 9
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 7
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 0
+    },
+    "opcode": {
+      "id": "test_call",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "string",
+          "value": {
+            "v": "t1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 2
+    },
+    "opcode": {
+      "id": "do_wire",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "D",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 0
+    },
+    "opcode": {
+      "id": "do_setvar",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "integer",
+          "value": {
+            "v": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 4
+    },
+    "opcode": {
+      "id": "do_requestcraft",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "item",
+          "value": {
+            "var": 3
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pos": {
+      "x": 4,
+      "y": 3
+    },
+    "opcode": {
+      "id": "do_getingredients_smart",
+      "primary": "R",
+      "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "south"
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "west"
+          }
+        },
+        {
+          "type": "item",
+          "value": {
+            "fun": "itemfromcard"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 0
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "v": 11
+          }
+        },
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north"
+          }
+        }
+      ]
+    }
+  }
+]
