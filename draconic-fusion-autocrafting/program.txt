@@ -29,8 +29,27 @@
       "y": 9
     },
     "opcode": {
-      "id": "do_craftok",
+      "id": "do_pushitems",
+      "primary": "U",
       "parameters": [
+        {
+          "type": "inventory",
+          "value": {
+            "side": "north"
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
+        {
+          "type": "integer",
+          "value": {
+            "null": true
+          }
+        },
         {
           "type": "integer",
           "value": {
@@ -181,19 +200,13 @@
       "y": 6
     },
     "opcode": {
-      "id": "ev_craft",
+      "id": "ev_signal",
       "primary": "R",
       "parameters": [
         {
-          "type": "item",
+          "type": "string",
           "value": {
-            "null": true
-          }
-        },
-        {
-          "type": "inventory",
-          "value": {
-            "side": "west"
+            "v": "p"
           }
         },
         {
@@ -303,16 +316,9 @@
       "y": 3
     },
     "opcode": {
-      "id": "do_log",
+      "id": "do_wire",
       "primary": "D",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "var": 2
-          }
-        }
-      ]
+      "parameters": []
     }
   },
   {
@@ -602,24 +608,6 @@
   },
   {
     "pos": {
-      "x": 10,
-      "y": 3
-    },
-    "opcode": {
-      "id": "do_log",
-      "primary": "R",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "v": "asd"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "pos": {
       "x": 6,
       "y": 0
     },
@@ -631,34 +619,6 @@
           "type": "integer",
           "value": {
             "v": 0
-          }
-        }
-      ]
-    }
-  },
-  {
-    "pos": {
-      "x": 10,
-      "y": 4
-    },
-    "opcode": {
-      "id": "do_stop",
-      "parameters": []
-    }
-  },
-  {
-    "pos": {
-      "x": 10,
-      "y": 5
-    },
-    "opcode": {
-      "id": "do_log",
-      "primary": "U",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "v": "fail -1"
           }
         }
       ]
@@ -720,16 +680,9 @@
       "y": 1
     },
     "opcode": {
-      "id": "do_log",
+      "id": "do_wire",
       "primary": "R",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "v": "per mazai, exit"
-          }
-        }
-      ]
+      "parameters": []
     }
   },
   {
@@ -739,7 +692,6 @@
     },
     "opcode": {
       "id": "do_releaselock",
-      "primary": "L",
       "parameters": [
         {
           "type": "string",
@@ -756,16 +708,9 @@
       "y": 2
     },
     "opcode": {
-      "id": "do_log",
+      "id": "do_wire",
       "primary": "R",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "v": "false 111"
-          }
-        }
-      ]
+      "parameters": []
     }
   },
   {
@@ -977,23 +922,6 @@
           "type": "integer",
           "value": {
             "var": 1
-          }
-        }
-      ]
-    }
-  },
-  {
-    "pos": {
-      "x": 7,
-      "y": 1
-    },
-    "opcode": {
-      "id": "do_log",
-      "parameters": [
-        {
-          "type": "string",
-          "value": {
-            "v": "baigem"
           }
         }
       ]
@@ -1283,7 +1211,6 @@
     },
     "opcode": {
       "id": "test_call",
-      "primary": "R",
       "parameters": [
         {
           "type": "string",
@@ -1347,19 +1274,23 @@
       "y": 4
     },
     "opcode": {
-      "id": "do_requestcraft",
-      "primary": "R",
+      "id": "do_wire",
+      "primary": "D",
+      "parameters": []
+    }
+  },
+  {
+    "pos": {
+      "x": 8,
+      "y": 5
+    },
+    "opcode": {
+      "id": "do_signal",
       "parameters": [
         {
-          "type": "item",
+          "type": "string",
           "value": {
-            "var": 3
-          }
-        },
-        {
-          "type": "inventory",
-          "value": {
-            "side": "north"
+            "v": "p"
           }
         }
       ]
