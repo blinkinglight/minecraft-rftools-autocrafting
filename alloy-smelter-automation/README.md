@@ -1,3 +1,5 @@
+# rftools controls autocrafting - ender io alloy smelter automation
+
 for this automation you need 3 nodes set on channel "craft", first node name should be "craft" and have on top rftools "workbench", second node should be named "card2" and have some chest or other storage on top.
 proccessor should have several tier 1 cpus, atleast tier 1 one network card and  "storage control module" linked to your rftools "Storage scanner"
 and finally you need one "Crafting station".

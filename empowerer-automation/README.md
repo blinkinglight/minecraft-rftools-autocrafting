@@ -1,3 +1,5 @@
+# rftools controls autocrafting - empowerer automation
+
 for this program you need - 4 nodes, 1 network card, 4 cpus, 1 ram.
 alocate all ram slots to program, allocate 6 (from 0 to 5) slots for items.
 

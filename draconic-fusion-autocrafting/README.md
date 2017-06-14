@@ -1,3 +1,5 @@
+# rftools controls autocrafting - draconic evolution fusion crafting automation
+
 for this program you need - 12 nodes, 1 network card, 4 cpus, 1 ram.
 alocate all ram slots to program, allocate 14 (from 0 to 13) slots for items.
 
